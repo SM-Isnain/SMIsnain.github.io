@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>S.M Isnain's website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+      background-color: white;
+}
+h1 {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-family: arial, sans-serif;
+    border: 3px solid lightblue;
+}
+
+p {
+   background-color: lightgray;
+   color: black;
+   padding: 8px;
+   font-size: 20px;
+   font-family: arial, sans-serif;
+}
+a {
+   text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul.info {
+     font-size: 18px;
+     list-style-type: square;
+     border-left: 6px solid black;
+     background-color: yellow;
+     padding: 11px 17px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+}
+
+li a.active {
+             background-color: blue;
+             color: white;
+}
+
+li a:hover:not(.active) {
+            background-color: red;
+}
+
+.subheading {
+        background-color: mediumseagreen;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        font-family: arial, sans-serif;
+}
+
+footer {
+          background-color: black;
+          text-align: right;
+          color: white;
+          padding: 5px;
+}
+
+table, th, td {
+               border-collapse: collapse;
+               width: 100%;
+               border: 2px solid black;
+               font-family: arial, sans-serif;
+}
+
+th {
+    background-color: aqua;
+    text-align: left;
+    color: black;
+}
+
+tr:nth-child(odd) {background-color: lavender;}
+tr:nth-child(even) {background-color: white;}
+tr:hover {background-color: yellow;}
+
+img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     height: auto;
+     border-radius: 15px;
+     opacity: 0.90;
+}
+
+img:hover {
+           opacity:1.0;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Welcome to my website !!!</h1>
+<ul>
+<li><a class="active" href="#mylife">Everyday life</a></li>
+<li><a href="#nature">Beautiful landscapes</a></li>
+<li><a href="#preferred">Neighbourhood</a></li>
+</ul>
+<p>My name is S.M Isnain. I am currently in my first year
+of my undergraduate study in Computer Science. <br>For 
+more information, please visit: <a href="https://www.linkedin.com/in/s-m-isnain-b6a901152/">
+LinkedIn Profile</a></p>
+<h2 class="subheading">Everyday life</h2>
+<p id="mylife">Life has became a lot busier now. Despite that, I still seem to enjoy it quite a lot. I believe that, having to meet the strict deadlines
+have made me more responsible than before. The mere experience of being able to study with some of the most intelligent young minds
+in the world simply uplifts the classroom experience. Great questions and detailed analysis of every topic by students in
+classrooms makes me want to learn more and think more deeply about everything.<br><br>Everyone here is so enthusiastic about
+what they learn that, one will find oneself deeply engrossed in thinking about assignment problems whilst also enjoying it,
+when he or she is in the presence of such wonderful peers.</p>
+<p>Here are some things that I do when I am not studying.<br></p>
+<ul class="info">
+  <li>Listening to my favourite songs</li><br>
+  <li>Watching inspirational biographical movies</li><br>
+  <li>Simply sitting quietly and reflecting on past happenings in life</li>
+</ul>
+<p>Below is a table of foods that I eat often.</p>
+<table style="width:100%">
+<tr>
+   <th>Foods that I eat</th>
+   <th>Time of consumption during day</th>
+</tr>
+<tr>
+   <td>Corn flakes with milk</td>
+   <td>9:00 a.m in the morning</td>
+</tr>
+<tr>
+   <td>White bread with hazelnut spread</td>
+   <td>2:00 p.m in the afternoon</td>
+</tr>
+<tr>
+  <td>Fettucine with vegetables</td>
+  <td>6:00 p.m in the evening</td>
+</tr>
+<tr>
+  <td>Rice with fried eggs and vegetables</td>
+  <td>10:00 p.m in the night</td>
+</tr>
+</table>
+<h2 class="subheading">Beautiful natural landscapes</h2>
+<p id="nature">
+<br>
+<img src="001.jpeg" alt="beach" width=200px; height=400px;>
+Source: <cite><a href="https://www.pexels.com/photo/scenic-view-of-the-beach-813412/">
+Pexels</a> (licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)</cite>
+<img src="02.jpeg" alt="serene" width=200px; height=400px;>
+Source:<cite><a href="https://www.pexels.com/photo/beach-blue-clouds-coast-289332/">
+Pexels</a> (licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)</cite><br>
+<a href="https://www.pexels.com/photo-license/">Pexels Photo License</a>
+<br>
+</p>
+<br>
+<h2 class="subheading">My surroundings</h2>
+<p id="preferred">The population density here in Waterloo seems too low to me. All my life, I have been
+used to living in a much busier and livelier city and I really love that way of life.
+Whenever my mood was down, I used to go out for a short walk. Simply watching other people having
+so much fun on the streets uplifted my mind and it was not long before I forgot all my worries.</p>
+<p>If I had the chance to live in a city like the one in the video below, I would actually be living my dream.</p>
+<video width="50%" height=500px controls>
+  <source src="045vid.mp4" type="video/mp4">
+  Sorry, the video could not be displayed.
+</video>
+Source: <cite><a href="https://videos.pexels.com/videos/time-lapse-of-busy-street-4725">Pexels</a>
+(licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>)</cite><br>
+<a href="https://videos.pexels.com/video-license">Pexels Video License</a>
+<br>
+<p>Thank you for visiting my website.</p>
+<footer>S.M Isnain 2018</footer>
+</body>
+</html>
